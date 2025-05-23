@@ -1,6 +1,9 @@
 # FIZZBUZZ game
-
-import time
+# ASSIGNMENT LOGIC
+# i [0..100]
+# i % 3 == 0 - FIZZ
+# i % 5 == 0 BUZZ
+# i % 3 && i # 5 FIZZBUZZ
 
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
